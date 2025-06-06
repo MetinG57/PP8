@@ -134,7 +134,14 @@ In this exercise you will:
 #### Reflection Questions
 
 1. **How do you pass a file name to a program using the `-i` and `-o` options?**
+```
+Man gibt -i oder -o gefolgt vom Dateinamen an, z. B. ./getopt_params -i input.txt -o output.txt. getopt speichert den Namen in optarg, der dann in infile oder outfile landet.
+```
+  
 2. **What are typical use cases for parameters versus flags? How do the differ from one another?**
+```
+Parameter (-n 42, -s hello) geben Werte wie Zahlen oder Dateinamen, z. B. für Konfigurationen. Flags (-a, -b) schalten Funktionen ein/aus, z. B. für Modi. Parameter brauchen ein : in getopt (n:s:), Flags nicht.
+```
 
 ---
 
