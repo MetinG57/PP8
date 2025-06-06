@@ -422,7 +422,9 @@ Redirection (< file.txt) leitet den Inhalt einer Datei direkt an stdin, ohne das
 #### Reflection Question
 
 * **Explain in your own words what the encryption and decryption processes are doing in both ciphers.**
-
+```
+Die Caesar-Chiffre verschiebt Buchstaben um eine feste Anzahl (z. B. 3: A → D), nur für a-z/A-Z. Entschlüsselung verschiebt zurück. XOR-Chiffre verknüpft jeden Buchstaben mit einem Schlüssel (z. B. 42) via Bit-XOR, was alle Zeichen ändert. Entschlüsselung ist dasselbe XOR, da es sich umkehrt.
+```
 ---
 
 **Remember:** Stop after **90 minutes** and record where you stopped.
