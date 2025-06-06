@@ -194,6 +194,9 @@ Parameter (-n 42, -s hello) geben Werte wie Zahlen oder Dateinamen, z. B. für K
 #### Reflection Question
 
 * **Why is a run-to-completion (batch) approach often preferable to interactive input?**
+```
+Batch ist schneller, automatisiert und verhindert Eingabefehler. Interaktive Eingabe wie scanf braucht Nutzer und kann bei falschen Eingaben Probleme machen.
+```
 
 ---
 
