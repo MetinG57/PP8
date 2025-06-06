@@ -229,6 +229,10 @@ Batch ist schneller, automatisiert und verhindert Eingabefehler. Interaktive Ein
 
 * **What is the difference between redirecting to stdin and explicitly opening a file with `fopen`?**
 
+```
+Redirection (< file.txt) leitet den Inhalt einer Datei direkt an stdin, ohne dass der Code die Datei kennt. fopen öffnet eine Datei explizit im Code mit einem Dateipfad und liest sie mit z. B. fscanf. Redirection ist flexibler, fopen gibt mehr Kontrolle.
+```
+
 ---
 
 ### Task 5: Caesar Cipher & Prototype Asymmetric XOR Cipher
